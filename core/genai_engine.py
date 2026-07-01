@@ -69,3 +69,4 @@ class GenAIAssistant:
                     action_items=[f"API Error Details: {str(fallback_error)}", "Check if GEMINI_API_KEY is properly loaded in your .env file."],
                     recommended_reorder_quantity=0
                 )
+            

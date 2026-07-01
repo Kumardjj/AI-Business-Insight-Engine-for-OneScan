@@ -7,7 +7,8 @@ import os
 
 class InventoryMLEngine:
     def __init__(self):
-        self.model = RandomForestClassifier(n_estimators=100, random_state=42)
+        self.model = RandomForestClassifier(n_estimators=100, random_state=42 
+        )
         self.label_encoder = LabelEncoder()
         self.data_path = "data/mock_inventory_data.csv"
         

@@ -16,9 +16,9 @@ genai_engine = GenAIAssistant()
 
 
 # 2. Train the model immediately right here on startup execution
-print("🤖 Initializing and training Random Forest Classifier...")
+print("Initializing and training Random Forest Classifier...")
 ml_engine.train_model()
-print("✅ Model trained successfully and ready for inference.")
+print("Model trained successfully and ready for inference.")
 
 # Ensure model is trained on startup
 @asynccontextmanager
